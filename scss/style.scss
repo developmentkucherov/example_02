@@ -40,6 +40,7 @@ $padding-vertical-reg: 60px;
 
 // === COMMON ===
 body {
+  height: 100%;
   @include Manrope;
   background-color: #000;
   color: $color-grey;
@@ -86,8 +87,13 @@ h6 {
 // === /header ====
 
 // === slider====
-@import 'slider';
+// @import 'slider';
+
 // === /slider ====
+
+// === main====
+@import 'main';
+// === /main ====
 
 // === text ====
 .section-text {
