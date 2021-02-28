@@ -279,33 +279,28 @@ h6 {
   border: 0;
 }
 
-.slider .slick-arrow.slick-prev {
+.slider .slick-arrow .slick-prev {
   left: 0;
-  background: url("/img/left-arrow.svg") 0 0/100% no-repeat;
+  background: url("/img/left-arrow.png") 0 0/100% no-repeat;
   margin-left: 20px;
 }
 
-.slider .slick-arrow.slick-next {
+.slider .slick-arrow .slick-next {
   right: 0;
-  background: url("/img/right-arrow.svg") 0 0/100% no-repeat;
+  background: url("/img/right-arrow.png") 0 0/100% no-repeat;
   margin-right: 20px;
 }
 
 .slider__item {
-  height: 50vh;
+  height: 95vh;
 }
 
 .slider__item img {
   width: 100%;
   position: relative;
-  background-position: center center;
+  background-position: top right;
   background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.slider__item h2 {
-  position: relative;
-  text-align: center;
+  background-size: cover;
 }
 
 /* Слайдер */
@@ -335,12 +330,6 @@ h6 {
 /* Точки (булиты) */
 /* Активная точка */
 /* Элемент точки */
-@media (max-width: 767px) {
-  .slider__item img {
-    height: 50vh;
-  }
-}
-
 .section-text {
   margin-top: 50px;
 }
