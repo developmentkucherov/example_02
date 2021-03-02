@@ -46,6 +46,12 @@ body {
   color: $color-grey;
 }
 
+.container {
+  max-width: 1060px;
+  margin: 0px auto;
+  padding: 0px 10px;
+}
+
 a {
   color: $color-white;
   text-decoration: none;
@@ -83,17 +89,21 @@ h6 {
 // === /COMMON ===
 
 // === header ====
-@import 'burger';
+@import 'header';
 // === /header ====
+
+// === main====
+@import 'main';
+// === /main ====
+
+// === showcase====
+@import 'showcase';
+// === /showcase===
 
 // === slider====
 // @import 'slider';
 
 // === /slider ====
-
-// === main====
-@import 'main';
-// === /main ====
 
 // === text ====
 .section-text {

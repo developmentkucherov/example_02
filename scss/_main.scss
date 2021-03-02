@@ -8,7 +8,7 @@
   }
 }
 
-.wrapper {
+.wrapper-fullscreen {
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
 
 .fullscreen {
   display: flex;
-  min-height: 90vh;
+  min-height: 94vh;
 }
 
 .fullscreen__body {
